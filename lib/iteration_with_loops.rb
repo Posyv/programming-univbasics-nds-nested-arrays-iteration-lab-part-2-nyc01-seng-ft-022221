@@ -8,7 +8,7 @@ while low_index < src.count do
 
     ring_element
     # Set longest_string_element to the current element
-    if src[low_index][element_index].min { |a, b|  } > longest_string_element.min { |a, b|  }
+    if src[low_index][element_index].min > longest_string_element.min 
       longest_string_element = src[low_index][element_index]
     end
     element_index += 1
